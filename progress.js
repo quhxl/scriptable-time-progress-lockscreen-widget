@@ -5,7 +5,7 @@
 // #############################
 const DECIMAL_PLACES = 6;
 const HEADLINE = "Title";
-const START_DATE = new Date(2024, 0, 1, 12, 0, 0, 0); // 2023-01-12T12:00:00
+const START_DATE = new Date(2023, 0, 1, 12, 0, 0, 0); // 2023-01-12T12:00:00
 const END_DATE = new Date(2023, 3, 14, 16, 25, 34); // 2023-04-14T16:25:34
 // #############################
 
