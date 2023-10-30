@@ -20,6 +20,10 @@ const totalTime = END_DATE - START_DATE;
 
 const percentage = ((timeElapsed / totalTime) * 100).toFixed(DECIMAL_PLACES);
 
+if (percentage > 100) {
+  percentage = 100;
+}
+
 let widget = new ListWidget();
 let widgetHeadline = widget.addText(HEADLINE);
 widgetHeadline.font = Font.headline();
